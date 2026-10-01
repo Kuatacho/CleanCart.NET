@@ -6,4 +6,7 @@
     <Project Path="src/Infrastructure/Infrastructure.csproj" />
     <Project Path="src/Presentation.BSA/Presentation.BSA.csproj" />
   </Folder>
+  <Folder Name="/tst/">
+    <Project Path="Application.UnitTests/Application.UnitTests.csproj" Id="f97a6507-6814-49f9-807a-30f6f5184592" />
+  </Folder>
 </Solution>

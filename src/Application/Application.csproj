@@ -10,11 +10,4 @@
     <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Interfaces\UseCases\" />
-    <Folder Include="Interfaces\Data\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="UseCases\" />
-  </ItemGroup>
-
 </Project>

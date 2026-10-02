@@ -34,5 +34,22 @@ namespace Domain.Entities
         }
 
 
+        //Remove item
+        public void RemoveItem(Guid productId, int quantity)
+        {
+            var existingItem = _items.SingleOrDefault(i => i.ProductId == productId);
+            if (existingItem != null)
+            {
+                if (existingItem.Quantity <= quantity)
+                {
+                    _items.Remove(existingItem);
+                }
+                else
+                {
+                    existingItem.Quantity -= quantity;
+                }
+            }
+        }
+
     }
 }

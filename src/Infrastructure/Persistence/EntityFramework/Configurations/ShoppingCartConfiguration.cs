@@ -29,9 +29,6 @@ namespace Infrastructure.Persistence.EntityFramework.Configurations
 
 
             });
-
-
-            throw new NotImplementedException();
         }
     }
 }
